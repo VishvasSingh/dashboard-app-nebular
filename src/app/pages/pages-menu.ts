@@ -254,14 +254,5 @@ export const MENU_ITEMS: NbMenuItem[] = [
       }
     ],
   },
-  {
-    title: 'title',
-    icon: 'bar-chart-outline',
-    children: [
-      {
-        title: 'Profit calculations',
-        link: '/pages/calculations/profitCalculations',
-      }
-    ],
-  },
+  
 ];

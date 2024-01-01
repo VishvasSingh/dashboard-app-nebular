@@ -17,12 +17,13 @@ import {
 import { ThemeModule } from '../../@theme/theme.module';
 import { CalculationsRoutingModule } from './calculations-routing.module';
 import { CalculationsComponent } from './calculations.component';
+import { UiFeaturesModule } from '../ui-features/ui-features.module';
 
 
 
 
 const COMPONENTS = [
-    CalculationsComponent
+    CalculationsComponent,
 ];
 
 // const ENTRY_COMPONENTS = [
@@ -48,6 +49,7 @@ const MODULES = [
   NbInputModule,
   NbSelectModule,
   NbTooltipModule,
+  UiFeaturesModule,
 ];
 
 const SERVICES = [
@@ -56,6 +58,7 @@ const SERVICES = [
 @NgModule({
     imports: [
         ...MODULES,
+        
     ],
     declarations: [
         ...COMPONENTS,
